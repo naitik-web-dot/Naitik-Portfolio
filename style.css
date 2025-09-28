@@ -55,7 +55,7 @@ body {
     justify-content: space-around;
     align-items: center;
     font-weight: 500;
-    z-index: 1;
+    z-index: 10;
     position: sticky;
     top: 0;
     background: rgba(193, 190, 190, 0.6);
@@ -97,8 +97,8 @@ body {
 
 .hide {
     position: fixed;
-    top: 50px;
-    right: 40px;
+    top: 0px;
+    right: 50px;
     width: 250px;
     height: auto;
     border-radius: 10px;
@@ -106,10 +106,15 @@ body {
     box-shadow: -8px 10px 10px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(8px);
     display: none;
+    z-index: 9999;
 }
 
 .hide li {
     list-style: none;
+}
+
+.hide li.close {
+    z-index: 10000;
 }
 
 .hide li a {
