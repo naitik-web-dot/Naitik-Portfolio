@@ -18,7 +18,7 @@ It demonstrates clean design, responsive layout, and modern web development tech
 - Typed.js for dynamic text, AOS for animations
 
 ## Demo
-[Live Demo Link] (if you host it on GitHub Pages)
+[Live Demo Link] ([if you host it on GitHub Pages](https://naitik-web-dot.github.io/Naitik-Portfolio/))
 
 ## Author
 - Naitik Sharma  
